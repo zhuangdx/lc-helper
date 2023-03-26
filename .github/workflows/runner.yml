@@ -5,9 +5,8 @@ on:
     - cron: '50 14 * * *'
     - cron: '50 22 * * *'
     - cron: '50 06 * * *'
-
-workflow_dispatch:
-
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ubuntu-latest
